@@ -9,6 +9,12 @@ Recent studies have begun to explore the integration of sentiment analysis into 
 In this notebook, I develop a model to forecast Tesla (TSLA) stock prices by integrating historical data and technical indicators with external factors like trader sentiment and brand reputation, as reflected in social media posts. This comprehensive approach aims to capture the multifaceted dynamics of the market, potentially leading to more accurate and robust stock price predictions.
 
 ### Table of contents
+1. [Importing Necessary Libraries](#section-one)
+2. [Get weekly sentiment for stock ticker](#section-two)
+3. [Get final dataset for training](#section-three)
+4. [Build GAN model](#section-four)
+5. [Train and test model](#section-five)
+6. [Conclusions](#section-six)
 
 **Importing Necessary Libraries**
 

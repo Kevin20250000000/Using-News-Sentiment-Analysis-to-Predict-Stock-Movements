@@ -16,9 +16,10 @@ In this notebook, I develop a model to forecast Tesla (TSLA) stock prices by int
 5. [Train and test model](#section-five)
 6. [Conclusions](#section-six)
 
-**Importing Necessary Libraries**
+**1. Importing Necessary Libraries**
 
-**Get weekly sentiment for stock ticker**
+
+**2. Get weekly sentiment for stock ticker**
 
 Stock price movements are influenced by more than just historical data; external factors like social media sentiment can have significant impacts. Notable examples include Elon Musk's tweets, which have been shown to cause substantial fluctuations in Tesla's stock price. For instance, in August 2018, Musk tweeted about taking Tesla private at 420𝑝𝑒𝑟𝑠ℎ𝑎𝑟𝑒,𝑙𝑒𝑎𝑑𝑖𝑛𝑔𝑡𝑜𝑎𝑚𝑜𝑟𝑒𝑡ℎ𝑎𝑛614 billion drop in Tesla's market value .
 
@@ -26,19 +27,19 @@ Research indicates a significant relationship between Twitter sentiment and stoc
 
 In this notebook, we will incorporate sentiment analysis of Twitter posts to assess the mood of stock market participants. By integrating this external indicator with traditional financial data, we aim to enhance the accuracy and robustness of stock price predictions.
 
-**Get final dataset for training**
+**3. Get final dataset for training**
 
 ![image](https://github.com/user-attachments/assets/648e7508-8e6e-41dd-a0ce-56842de780ba)
 
 ![image](https://github.com/user-attachments/assets/87f3abb7-e675-48cc-bf99-ae0be41c2698)
 
-**Build GAN model**
+**4. Build GAN model**
 
 
 
-**Train and test model**
+**5. Train and test model**
 
 ![image](https://github.com/user-attachments/assets/cf361942-2e78-4a9f-a197-e4f957dc49da)
 
 
-**Conclusions**
+**6. Conclusions**

@@ -19,6 +19,7 @@ In this notebook, I develop a model to forecast Tesla (TSLA) stock prices by int
 **1. Importing Necessary Libraries**
 
 
+
 **2. Get weekly sentiment for stock ticker**
 
 Stock price movements are influenced by more than just historical data; external factors like social media sentiment can have significant impacts. Notable examples include Elon Musk's tweets, which have been shown to cause substantial fluctuations in Tesla's stock price. For instance, in August 2018, Musk tweeted about taking Tesla private at 420𝑝𝑒𝑟𝑠ℎ𝑎𝑟𝑒,𝑙𝑒𝑎𝑑𝑖𝑛𝑔𝑡𝑜𝑎𝑚𝑜𝑟𝑒𝑡ℎ𝑎𝑛614 billion drop in Tesla's market value .
@@ -34,7 +35,7 @@ In this notebook, we will incorporate sentiment analysis of Twitter posts to ass
 ![image](https://github.com/user-attachments/assets/87f3abb7-e675-48cc-bf99-ae0be41c2698)
 
 **4. Build GAN model**
-
+We build a GAN model architecture, where the generator has 5 LSTM blocks and the discriminator has 5 convolutional and 3 dense layers with sigmoid activation function.
 
 
 **5. Train and test model**
@@ -43,3 +44,10 @@ In this notebook, we will incorporate sentiment analysis of Twitter posts to ass
 
 
 **6. Conclusions**
+
+Generative Adversarial Networks (GANs) have shown promise in modeling time series data like stock prices, particularly when combined with technical indicators and sentiment analysis from platforms such as Twitter. For widely followed stocks like Tesla, the abundance of tweet volumes provides rich sentiment data, enhancing prediction accuracy.
+
+However, for less-discussed stocks, limited social media activity can result in sparse or noisy sentiment inputs, potentially diminishing model performance. A study by Anjaneyulu et al. (2024) highlights that low-popularity stocks present challenges due to restricted data availability and increased volatility. The research suggests that while GANs can improve predictions for high-volume tickers, their effectiveness may be constrained for stocks with limited sentiment data .
+eudoxuspress.com
+
+Therefore, while GANs are promising for stock forecasting, their efficacy is influenced by the availability and quality of sentiment data. In scenarios with limited social media activity, alternative approaches or enhanced data augmentation techniques may be necessary to maintain predictive performance.

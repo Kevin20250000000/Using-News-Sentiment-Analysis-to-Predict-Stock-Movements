@@ -11,7 +11,8 @@ In this notebook, I develop a model to forecast Tesla (TSLA) stock prices by int
 
 **1. Importing Necessary Libraries**
 
-**[Importing Necessary Libraries]**(https://github.com/Kevin20250000000/Using-News-Sentiment-Analysis-to-Predict-Stock-Price-Movements/blob/main/Importing%20Necessary%20Libraries)
+
+[Importing Necessary Libraries](https://github.com/Kevin20250000000/Using-News-Sentiment-Analysis-to-Predict-Stock-Price-Movements/blob/main/Importing%20Necessary%20Libraries)
 
 **2. Get weekly sentiment for stock ticker**
 
